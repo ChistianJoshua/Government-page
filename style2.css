@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(Pics/BG.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15rem 0;
+}
+
+.card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.lock-icon {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 12px;
+}
+
+.passInput {
+    margin-top: 15px;
+    width: 80%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid deepskyblue;
+    font-size: 15px;
+    color: white;
+    outline: none;
+}
+
+button {
+    margin-top: 15px;
+    width: 80%;
+    background-color: deepskyblue;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: rgb(0, 0, 138);
+    transition: .09ms ease-in;
+}
+.button {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 8px 20px;
+    border: 1px double #000000;
+    width: fit-content;
+    border-radius: 12px;
+    background-color: #525051;
+}
+.button a{
+    text-decoration: none;
+    color: #f1eeee;
+  }
+.button a:hover {
+    color: #141414;
+}
+.button:hover {
+    background-color: #00ffff;
+    transition: ease-in 1ms;
+}
+body {
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

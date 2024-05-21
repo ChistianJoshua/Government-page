@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  background-image: url("Pics/BG.jpg");
+  background-size: cover;
+}
+.Back {
+  background-color: #ddd;
+  width: 70%;
+  height: auto;
+  opacity: .8;
+  border-radius: 10px;
+  margin: 50px 15%;
+}
+p {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  font-size: 20px;
+}
+.button {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 8px 20px;
+  border: 1px double #000000;
+  width: fit-content;
+  border-radius: 12px;
+  background-color: #525051;
+}
+.Back p {
+  padding: 0 40px;
+}
+.Back h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.button a{
+  text-decoration: none;
+  color: #f1eeee;
+}
+.button a:hover {
+  color: #141414;
+}
+.button:hover {
+  background-color: #00ffff;
+  transition: ease-in 1ms;
+}
+.Back img {
+  padding: 50px;
+  width: 100%;
+}
+.img-fluid {
+  display: block;
+  max-width: 90%;
+  height: auto;
+}
+.candidate {
+  display: flex;
+}
+.Events .text-center {
+  background-color: #f0eaea;
+  width: 100%;
+  padding: 20px;
+}
+body {
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  .candidate {
+    display: block;
+    width: 650px;
+    height: auto;
+  }
+}
